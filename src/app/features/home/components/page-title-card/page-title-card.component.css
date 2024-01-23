@@ -1,0 +1,19 @@
+.title-container{
+  border-top: 1px solid var(--second-color);
+  border-bottom: 1px solid var(--second-color);
+  text-align: center;
+  margin: 20px;
+}
+
+.title-container > h1{
+  margin: 15px 0;
+  font-size: 85px;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+@media (max-width: 865px) {
+  .title-container > h1 {
+    font-size: 50px;
+  }
+}

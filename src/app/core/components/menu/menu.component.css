@@ -1,15 +1,20 @@
 .main-menu{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-menu > img{
   height: 30px;
   cursor: pointer;
+  align-self: flex-end;
+  margin-right: 10px;
 }
 
-.image-container{
-  height: 30px;
+.menu-container{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .menu-itens{

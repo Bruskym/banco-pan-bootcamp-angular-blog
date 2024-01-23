@@ -13,4 +13,11 @@ img{
 .small-card-photo{
   width: 100%;
   margin-right: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 650px){
+  h3{
+    font-size: 14px;
+  }
 }

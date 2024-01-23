@@ -1,9 +1,11 @@
 <div class="main-menu">
-  <ul class="menu-itens">
-    <li class="item-menu"><a href="#">Home</a></li>
-    <li class="item-menu"><a href="#">Sobre</a></li>
-    <li class="item-menu"><a href="#">Contato</a></li>
-  </ul>
+  <div class="menu-container">
+    <ul class="menu-itens">
+      <li class="item-menu"><a href="#">Home</a></li>
+      <li class="item-menu"><a href="#">Sobre</a></li>
+      <li class="item-menu"><a href="#">Contato</a></li>
+    </ul>
+  </div>
   <img *ngIf="themeService.getTheme() === 'light'" src="../../../../assets/dark.svg" (click)="alternateTheme()">
   <img *ngIf="themeService.getTheme() === 'dark'" src="../../../../assets/light.svg" (click)="alternateTheme()">
 </div>

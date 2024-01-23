@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-:root{
-  --primary-color: #111111;
+body{
+  --primary-color: #161616;
   --text-body: #fff;
   --second-color: #fff;
 }
 
-:root .light-theme{
+body.light-theme{
   --primary-color: #fff;
   --text-body: #4b4b4b;
   --second-color: #111111;

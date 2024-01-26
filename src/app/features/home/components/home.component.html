@@ -1,30 +1,21 @@
 <app-page-title-card></app-page-title-card>
 <section class="post-cards-container">
   <article class="big-card-post">
-    <app-big-card
-    [cardPhoto]="'https://www.zup.com.br/wp-content/uploads/2021/03/5e32dc5538c14b0d4b28f87f_imagens-angular3.png'"
-    [cardTitle]="'Lorem Ipsum Dolor'"
-    [cardDescription]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic mollitia quos enim tempore velit corporis molestiae ducimus culpa. Velit sit qui ipsam rem cupiditate voluptas sunt libero incidunt hic eligendi.'"
-    ></app-big-card>
+    <a *ngIf="Cards.length > 0" [routerLink]="['/news', Cards[0].id]">
+      <app-big-card
+      [cardPhoto]="Cards[0].photoURL"
+      [cardTitle]="Cards[0].title"
+      [cardDescription]="Cards[0].description"
+      ></app-big-card>
+    </a>
   </article>
   <section class="small-cards">
-    <article class="small-card-post">
+    <article *ngFor="let smallCard of smallCards"  class="small-card-post">
       <app-small-card
-        [cardPhoto]="'https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png'"
-        [cardTitle]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit.'"
+        [cardId]="smallCard.id"
+        [cardPhoto]="smallCard.photoURL"
+        [cardTitle]="smallCard.title"
       ></app-small-card>
-    </article>
-    <article class="small-card-post">
-      <app-small-card
-      [cardPhoto]="'https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png'"
-      [cardTitle]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit.'"
-    ></app-small-card>
-    </article>
-    <article class="small-card-post">
-      <app-small-card
-      [cardPhoto]="'https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png'"
-      [cardTitle]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit.'"
-    ></app-small-card>
     </article>
   </section>
 </section>

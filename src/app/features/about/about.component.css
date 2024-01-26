@@ -1,0 +1,9 @@
+.page-content{
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+.big-card-content{
+  width: 50%;
+}

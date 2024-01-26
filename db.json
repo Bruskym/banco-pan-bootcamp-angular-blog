@@ -1,0 +1,32 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "photoURL": "https://www.zup.com.br/wp-content/uploads/2021/03/5e32dc5538c14b0d4b28f87f_imagens-angular3.png",
+      "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut assumenda omnis dolorem iure culpa voluptatibus doloribus adipisci vero mollitia expedita a labore aspernatur, similique minus alias provident est. Ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae earum dignissimos commodi? Soluta iure debitis, aut culpa sapiente quos. Iste fugiat molestiae maiores reiciendis et ad dolor a accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut assumenda omnis dolorem iure culpa voluptatibus doloribus adipisci vero mollitia expedita a labore aspernatur, similique minus alias provident est. Ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae earum dignissimos commodi? Soluta iure debitis, aut culpa sapiente quos. Iste fugiat molestiae maiores reiciendis et ad dolor a accusamus!"
+    },
+    {
+      "id": 2,
+      "photoURL": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png",
+      "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut assumenda omnis dolorem iure culpa voluptatibus doloribus adipisci vero mollitia expedita a labore aspernatur, similique minus alias provident est. Ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae earum dignissimos commodi? Soluta iure debitis, aut culpa sapiente quos. Iste fugiat molestiae maiores reiciendis et ad dolor a accusamus!"
+    },
+    {
+      "id": 3,
+      "photoURL": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png",
+      "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut assumenda omnis dolorem iure culpa voluptatibus doloribus adipisci vero mollitia expedita a labore aspernatur, similique minus alias provident est. Ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae earum dignissimos commodi? Soluta iure debitis, aut culpa sapiente quos. Iste fugiat molestiae maiores reiciendis et ad dolor a accusamus!"
+    },
+    {
+      "id": 4,
+      "photoURL": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png",
+      "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ut assumenda omnis dolorem iure culpa voluptatibus doloribus adipisci vero mollitia expedita a labore aspernatur, similique minus alias provident est. Ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae earum dignissimos commodi? Soluta iure debitis, aut culpa sapiente quos. Iste fugiat molestiae maiores reiciendis et ad dolor a accusamus!"
+    }
+  ]
+}

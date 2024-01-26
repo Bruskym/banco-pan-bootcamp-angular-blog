@@ -1,0 +1,23 @@
+<section *ngIf="newsData" class="news-content">
+  <article class="news">
+    <div class="news-title">
+      <h2 class="news-heading">{{newsData.title}}</h2>
+    </div>
+
+    <div class="news-subtitle">
+      <h3 class="subtitle-content">
+        {{newsData.description}}
+      </h3>
+    </div>
+
+    <div class="news-illustration">
+      <img src={{newsData.photoURL}} class="news-photo">
+    </div>
+
+    <div class="news-text">
+      <p class="content">
+        {{newsData.content}}
+      </p>
+    </div>
+  </article>
+</section>

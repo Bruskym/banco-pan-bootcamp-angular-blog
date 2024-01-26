@@ -1,9 +1,8 @@
 <div class="main-menu">
   <div class="menu-container">
     <ul class="menu-itens">
-      <li class="item-menu"><a href="#">Home</a></li>
-      <li class="item-menu"><a href="#">Sobre</a></li>
-      <li class="item-menu"><a href="#">Contato</a></li>
+      <li class="item-menu"><a [routerLink]="['/']">Home</a></li>
+      <li class="item-menu"><a [routerLink]="['/about']">Sobre</a></li>
     </ul>
   </div>
   <img *ngIf="themeService.getTheme() === 'light'" src="../../../../assets/dark.svg" (click)="alternateTheme()">
